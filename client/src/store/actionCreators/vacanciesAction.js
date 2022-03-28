@@ -1,7 +1,7 @@
 import axios from "axios";
 import { FETCH_SUCCESS, FETCH_LOADING, FETCH_EROR, FETCH_ONE_SUCCESS } from "../actionTypes/vacanciesType";
 
-const baseUrl = "http://localhost:3000/vacancies";
+const baseUrl = "https://ridhasidi-vacancies.herokuapp.com/vacancies";
 
 export const fetchVacancies = () => {
   return async (dispatch) => {

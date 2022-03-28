@@ -1,7 +1,7 @@
 import axios from "axios";
 import { CREATE_APP_SUCCESS, CREATE_APP_EROR, CREATE_APP_LOADING } from "../actionTypes/applicantsType";
 
-const baseUrl = "http://localhost:3000/applicants";
+const baseUrl = "https://ridhasidi-vacancies.herokuapp.com/applicants";
 
 export const createApplication = (payload) => {
   return (dispatch) => {
@@ -15,7 +15,6 @@ export const createApplication = (payload) => {
         data: payload,
       })
         .then((data) => {
-          // dispatch(createApplicationSuccess(data.data));
           res(data.data);
         })
         .catch((err) => {
