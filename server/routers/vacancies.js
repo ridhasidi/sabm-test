@@ -3,6 +3,6 @@ const router = express.Router();
 const Controller = require("../controllers/vacanciesControllers");
 
 router.get("/", Controller.readVacancies);
-// router.get("/:vacancyId", Controller);
+router.get("/:id", Controller.readOneVacancy);
 
 module.exports = router;
