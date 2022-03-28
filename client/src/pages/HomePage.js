@@ -2,14 +2,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import Card from "../components/Card";
 import { fetchVacancies } from "../store/actionCreators/vacanciesAction";
+import { Modal } from "react-bootstrap";
 export default function HomePage() {
   const { vacancies, loading } = useSelector((state) => state.vacanciesReducer);
   const dispatch = useDispatch();
-  // useState
   useEffect(() => {
     dispatch(fetchVacancies());
   }, [dispatch]);
-  // console.log(vacancies);
 
   if (loading) {
     return <div>Loading.......</div>;
@@ -23,6 +22,8 @@ export default function HomePage() {
           return <Card key={vac.id} item={vac}></Card>;
         })}
       </div>
+
+      <Modal></Modal>
     </div>
   );
 }
