@@ -1,0 +1,38 @@
+[
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-1.jpg",
+    "name": "Lowongan ke-1"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-2.jpg",
+    "name": "Lowongan ke-2"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-3.jpg",
+    "name": "Lowongan ke-3"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-1.jpg",
+    "name": "Lowongan ke-4"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-2.jpg",
+    "name": "Lowongan ke-5"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-3.jpg",
+    "name": "Lowongan ke-6"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-1.jpg",
+    "name": "Lowongan ke-7"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-2.jpg",
+    "name": "Lowongan ke-8"
+  },
+  {
+    "photoUrl": "https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-3.jpg",
+    "name": "Lowongan ke-9"
+  }
+]
